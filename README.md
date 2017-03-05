@@ -4,7 +4,7 @@
 
 ---
 ##1.什么是github
-- github是分散性版本管理系统,有助于多人协作开发的管理系统。
+- GitHub 是为开发者提供 Git 仓库的托管服务。这是一个让开发者与朋友、同事、同学及陌生人共享代码的完美场所
 
 
 ----------
@@ -33,6 +33,7 @@
 - Git下载可以到官网去下载
 - Git的初始化设置
  - 首先来设置使用 Git 时的姓名和邮箱地址。名字请用英文输入
+
  > `git config --global user.name '你的英文名字'`
    `git config --global user.email '你的邮箱'`
 
@@ -41,6 +42,7 @@
 
 
 - 提高命令输出的可读性
+
 > `git config --global color.ur auto`
 
 
@@ -56,7 +58,8 @@
 将其添加至 GitHub
   - 创建 SSH Key
   > `$ ssh-keygen -t rsa -C "your_email@example.com"`
-    Generating public/private rsa key pair.
+
+  > Generating public/private rsa key pair.
     Enter file in which to save the key
     (/Users/your_user_directory/.ssh/id_rsa): 按回车键
     Enter passphrase (empty for no passphrase): 输入密码
@@ -68,11 +71,13 @@
  - 添加完进行认证
 
  >  `$ ssh -T git@github.com`
-The authenticity of host 'github.com (207.97.227.239)' can't be established.
+
+ >The authenticity of host 'github.com (207.97.227.239)' can't be established.
 RSA key fingerprint is fingerprint值 .
 Are you sure you want to continue connecting (yes/no)? 输入yes
 
  - 如果验证成功,会出现以下字段
+ 
  ```Hi hirocastest! You've successfully authenticated, but GitHub does not provide shell access.```
 
 
