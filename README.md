@@ -176,6 +176,9 @@ Are you sure you want to continue connecting (yes/no)? 输入yes
      > 用上述方式执行 git rebase命令，可以选定当前分支中包含
     HEAD（最新提交）在内的两个最新历史记录为对象，并在编辑器中
     打开（**比如我有一个历史管理记录提交代码有bug，之后修改正确提交代码。历史管理记录不需要错误的bug历史管理记录，所以要把这最新两条信息合并在一起，防止以后切换历史版本切换到bug版本**,）
+    **pick 7a34294 Add feature-C**
+    **fixup 6fba227 Fix typo**
+    将 6fba227 左侧的 pick 部分删除，改写为 fixup。
 
 
 ----------
