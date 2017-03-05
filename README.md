@@ -58,6 +58,7 @@
 将其添加至 GitHub
   - 创建 SSH Key
   > `$ ssh-keygen -t rsa -C "your_email@example.com"`
+
   > Generating public/private rsa key pair.
     Enter file in which to save the key
     (/Users/your_user_directory/.ssh/id_rsa): 按回车键
@@ -70,6 +71,7 @@
  - 添加完进行认证
 
  >  `$ ssh -T git@github.com`
+
  >The authenticity of host 'github.com (207.97.227.239)' can't be established.
 RSA key fingerprint is fingerprint值 .
 Are you sure you want to continue connecting (yes/no)? 输入yes
