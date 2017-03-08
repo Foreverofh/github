@@ -185,7 +185,9 @@ Are you sure you want to continue connecting (yes/no)? 输入yes
 
  - git remote add——添加远程仓库
 
- > 在 GitHub 上创建的仓库路径为“git@github.com:用户名 /仓库名.git”。现在我们用 git remote add命令将它设置成本地仓库的远程仓库。 `git remote add origin git@github.com:用户名 /仓库名.git`
+ > 在 GitHub 上创建的仓库路径为“git remote add origin 远程仓库地址”。现在我们用 git remote add命令将它设置成本地仓库的远程仓库。
+  ``` git remote add origin https://github.com/Foreverofh/vue-puban.git
+      git push -u origin master ```
 
  - git push——推送至远程仓库
  >如果想将当前分支下本地仓库中的内容推送给远程仓库，需要用到
