@@ -225,6 +225,19 @@ git push命令.`git push -u origin master`
  - `git pull`——获取最新的远程仓库分支
  - `git pull origin feature-D` 将本地的 feature-D 分支更新到最新状态。当前分支为 feature-D 分支。
  > 如果两人同时修改了同一部分的源代码，push时就很容易发生冲突。所以多名开发者在同一个分支中进行作业时，为减少冲突情况的发生，建议更频繁地进行 push 和 pull 操作.
+ - git branch -d xxxx --删除分支
+ - git branch -r -d origin/xxx --删除远程分支
+ - git push origin :xxx --删除远程分支
+ - git remote -v --查看关联的远程仓库
+
+- (记住用户名和密码)新建'.gitconfig' 文件,用编辑器打开新建文件，输入:
+ >  [user]
+    name = ‘你的git用户名’
+    email = ‘你的git邮箱’
+    [credential]
+    helper = store
+
+
 
 
 
